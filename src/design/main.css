@@ -1,0 +1,126 @@
+* {
+   margin: 0;
+   padding: 0;
+   
+}
+.MainApp {
+   display: flex;
+   justify-content: center;
+   width: 99vw;
+   background-color: #e9edee;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   overflow: hidden;
+   
+
+   
+
+}
+.slideInitial {
+   margin-top: 123px;
+   width: 99vw;
+   height: 660px;
+   display: flex;
+   flex-direction: row;
+   background-image: url(https://m.media-amazon.com/images/I/61JO2gTPIvL._SX3000_.jpg) ;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   -moz-transform: scale(1.039);
+  -webkit-transform: scale(1.039);
+  transform: scale(1.039);
+
+   
+   
+}
+
+.juntaTudo {
+   width: 1300px;
+   height: 1500px;
+   z-index: 9;
+
+
+}
+
+.quadradrosProdutos {
+   margin-bottom: 300px;
+   margin-top: -320px;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-auto-rows: 100px;
+   grid-gap: 330px 8px;
+   padding: 20px 10px;
+}
+.teste {
+   width: 260px;
+   height: 400px;
+   background-color: white;
+   border-left: 20px solid white;
+   border-right: 20px solid white;
+}
+.TituloProd {
+   margin: 20px 0px 10px 0px;
+   font-size: 20px;
+}
+.imgProd {
+   width: 100%;
+   height: 70%;
+   padding-bottom: 10px;
+   
+}
+.linkProd {
+   color: blue;
+   text-decoration: none;
+   font-size: 14px;
+}
+.barraProd {
+   margin-left: 5px;
+   margin-bottom: 25px;
+   width: 99%;
+   height: 334px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+}
+.imgLista {
+   margin-top: 20px;
+   margin-left: 15px;
+   width: 160px;
+   height: 240px;
+}
+.infoLista {
+   display: flex;
+   flex-direction: row;
+   background-color: white
+}
+.guardaLista {
+   background-color: white;
+   white-space: nowrap;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+.guardaLista:hover {
+   overflow-x: auto;
+  
+}
+.h1Lista {
+   margin: 20px 10px 10px 15px;
+   background-color: transparent;
+   font-size: 25px;
+   color: grey;
+}
+.aLista {
+   text-decoration: none;
+   color: blue;
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   font-size: 15px;
+}
+
+
+
+   
+   

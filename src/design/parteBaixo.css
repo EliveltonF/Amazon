@@ -1,0 +1,144 @@
+* {
+   margin: 0px;
+   font-family: sans-serif;
+}
+.main-parteBaixo {
+   width: 99vw;
+   height: 1000px;
+   overflow-x: none;
+
+}
+.botaVoltarTopo {
+   width: 99vw;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #364759;
+}
+.nomeDentro-botaoVoltarTopo {
+   color: #f1f5f6;
+}
+.ajudaAmazon {
+   width: 99vw;
+   height: 380px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: #232f3f;
+}
+.titulo-info {
+   color: whitesmoke;
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+.topicos-info {
+   margin-bottom: 10px;
+}
+.info1 {
+   margin: 50px;
+   color: #c3c2c0;
+}
+.info1 > .topicos-info {
+   width: 125px;
+}
+.info2 {
+   margin: 50px;
+   color: #c3c2c0;
+}
+.info2 > .topicos-info {
+   width: 180px;
+}
+.info3 {
+   margin: 50px;
+   color: #c3c2c0;
+}
+.info3 > .topicos-info {
+   width: 165px;
+}
+.info4 {
+   margin: 50px;
+   color: #c3c2c0;
+}
+.info4 > .topicos-info {
+   width: 170px;
+}
+.moeda-Pais {
+   border-top:1px solid #364759;
+   width: 99vw;
+   height: 100px;
+   background-color: #232f3f;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.logoAmazon {
+   width: 90px;
+   height: 24px;
+   margin-top: 5px;
+   margin-right: 110px;
+   margin-left: 10px;
+}
+.idioma {
+   width: 100px;
+   height: 35px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: whitesmoke;
+   margin-left: 10px;
+}
+.moeda {
+   padding-left: 10px;
+   padding-right: 30px;
+   font-size: 13px;
+   height: 35px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: whitesmoke;
+   margin-left: 10px;
+}
+.pais {
+   padding-left: 10px;
+   padding-right: 30px;
+   font-size: 15px;
+   height: 35px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: whitesmoke;
+   margin-left: 10px;
+}
+.monteDeCoisa-final {
+   width: 99vw;
+   height: 500px;
+   background-color: #131a22;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.monteDeCoisa-final > div {
+   background-color: transparent;
+   margin: 5px 5px 5px 10px;
+}
+.monteDeCoisa-final > div > p {
+   font-size: 11px;
+   margin: 10px 10px 35px 10px;
+   color: grey;
+   width: 100px;
+   
+}
+ span {
+    
+   font-size: 12px;
+   color: white;
+   
+}
